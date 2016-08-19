@@ -1,0 +1,29 @@
+<nav class="navbar navbar-inverse bg-faded">
+  <div class="container">
+    {{#link-to 'index'}}<a class="navbar-brand">Stack Emberflow</a>{{/link-to}}
+    <ul class="nav navbar-nav">
+      <li class="nav-item">
+        {{#link-to 'index'}}<a class="nav-link">Home</a>{{/link-to}}
+      </li>
+      <li class="nav-item">
+        {{#link-to 'about'}}<a class="nav-link">About</a>{{/link-to}}
+      </li>
+      <li class="nav-item">
+        {{#link-to 'contact'}}<a class="nav-link">Contact</a>{{/link-to}}
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+  <header class = "jumbotron">
+    <h1>Stack Emberflow</h1>
+  </header>
+    {{outlet}}
+  <hr>
+  <footer>
+    {{#link-to 'index'}}Home{{/link-to}}
+    {{#link-to 'about'}}About Us{{/link-to}}
+    {{#link-to 'contact'}}Contact us{{/link-to}}
+  </footer>
+</div>
