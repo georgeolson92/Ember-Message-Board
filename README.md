@@ -1,11 +1,31 @@
-# Emberboard
+# Stack Emberflow
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Stack Emberflow is a website where you can ask questions about code issues and receive answers from other people.
+
+## Specifications
+
+* It can list out all questions on homepage
+    * _Example Input: user visits home page _
+    * _Example Output: returns full list of questions_
+* It can add a new question
+  * _Example Input: "Help!", "Sam", "I have a code issue."_
+  * _Example Output: Question: Help! by Sam, "I have a code issue"_
+* It can edit questions
+    * _Example Input: "Help! [nevermind, fixed]", "Sam", "I have a code issue [THANX JOE U SAVED MY LYFE"_
+    * _Example Output: Question: Help! [nevermind, fixed] by Sam, "I have a code issue [THANKS JOE U SAVED MY LYFE"_  
+* It can add an answer to a question
+  * _Example Input: in "Help!" question, user adds answer. User: "Joe", Answer content: "Here is a fix!"_
+  * _Example Output: displayed in "Help!" question: "Joe's answer to 'Help!'", "Here is a fix!"_  
+* It can delete answers
+* _Example Input: user deletes Joe's answer (the only one listed in "Help!" question)_
+* _Example Output: No answers listed_  
+* It can delete questions and linked answers
+* _Example Input: in "Help!" question, user adds answer. User then deletes the entire question._
+* _Example Output: Question & listed answers deleted._ 
 
 ## Prerequisites
 
-You will need the following things properly installed on your computer.
+You will need the following things properly installed on your computer:
 
 * [Git](http://git-scm.com/)
 * [Node.js](http://nodejs.org/) (with NPM)
@@ -15,7 +35,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone https://github.com/georgeolson92/Ember-Message-Board.git` this repository
 * change into the new directory
 * `npm install`
 * `bower install`
@@ -25,23 +45,11 @@ You will need the following things properly installed on your computer.
 * `ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
 ### Building
 
 * `ember build` (development)
 * `ember build --environment production` (production)
 
-### Deploying
-
-Specify what it takes to deploy your app.
 
 ## Further Reading / Useful Links
 
@@ -50,4 +58,3 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
