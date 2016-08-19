@@ -1,4 +1,6 @@
 <div class="answer">
   <strong>{{answer.author}}'s answer to "{{answer.question.title}}"</strong>
   <p>{{answer.content}}</p>
+
+  <button {{action 'delete' answer}} class="btn btn-danger">Delete Answer</button>
 </div>

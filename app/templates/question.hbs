@@ -4,7 +4,7 @@
 {{question-detail question=model destroyQuestion="destroyQuestion"}}
 
 {{#each model.answers as |answer|}}
-  {{answer-tile answer=answer}}
+  {{answer-tile answer=answer destroyAnswer="destroyAnswer"}}
 {{/each}}
 
 {{new-answer save2="save3" question=model}}
