@@ -4,24 +4,24 @@ Stack Emberflow is a website where you can ask questions about code issues and r
 
 ## Specifications
 
-* It can list out all questions on homepage
-    * _Example Input: user visits home page _
-    * _Example Output: returns full list of questions_
-* It can add a new question
-  * _Example Input: "Help!", "Sam", "I have a code issue."_
-  * _Example Output: Question: Help! by Sam, "I have a code issue"_
-* It can edit questions
-    * _Example Input: "Help! [nevermind, fixed]", "Sam", "I have a code issue [THANX JOE U SAVED MY LYFE"_
-    * _Example Output: Question: Help! [nevermind, fixed] by Sam, "I have a code issue [THANKS JOE U SAVED MY LYFE"_  
-* It can add an answer to a question
-  * _Example Input: in "Help!" question, user adds answer. User: "Joe", Answer content: "Here is a fix!"_
-  * _Example Output: displayed in "Help!" question: "Joe's answer to 'Help!'", "Here is a fix!"_  
-* It can delete answers
-* _Example Input: user deletes Joe's answer (the only one listed in "Help!" question)_
-* _Example Output: No answers listed_  
-* It can delete questions and linked answers
-* _Example Input: in "Help!" question, user adds answer. User then deletes the entire question._
-* _Example Output: Question & listed answers deleted._ 
+* __It can list out all questions on homepage__
+    * Example Input: user visits home page _
+    * Example Output: returns full list of questions
+* __It can add a new question__
+  * Example Input: "Help!", "Sam", "I have a code issue."
+  * Example Output: Question: Help! by Sam, "I have a code issue"
+* __It can edit questions__
+    * Example Input: "[nevermind, fixed]", "Sam", "Thanks Joe you saved my life"
+    * Example Output: Question: [nevermind, fixed] by Sam, "Thanks Joe you saved my life"
+* __It can add an answer to a question__
+  * Example Input: in "Help!" question, user adds answer. User: "Joe", Answer content: "Here is a fix!"
+  * Example Output: displayed in "Help!" question: "Joe's answer to 'Help!'", "Here is a fix!"
+* __It can delete answers__
+  * Example Input: user deletes Joe's answer (the only one listed in "Help!" question)
+  * Example Output: No answers listed  
+* __It can delete questions and linked answers__
+  * Example Input: in "Help!" question, user adds answer. User then deletes the entire question.
+  * Example Output: Question & listed answers deleted.
 
 ## Prerequisites
 
