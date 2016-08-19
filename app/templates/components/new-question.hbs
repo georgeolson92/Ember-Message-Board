@@ -1,5 +1,5 @@
 {{#if addNewQuestion}}
-  <h1>New Question</h1>
+  <h3>Add New Question:</h3>
     <div>
       <form>
         <div class="form-group">
@@ -8,13 +8,13 @@
         </div>
 
         <div class="form-group">
-          <label for="content">Content</label>
-          {{input value=content id="content"}}
+          <label for="title">Title</label>
+          {{input value=title id="title"}}
         </div>
 
         <div class="form-group">
-          <label for="title">Title</label>
-          {{input value=title id="title"}}
+          <label for="content">Content</label>
+          {{input value=content id="content"}}
         </div>
 
         <button {{action 'save4'}} class="btn btn-primary">Save</button>

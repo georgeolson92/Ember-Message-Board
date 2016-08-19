@@ -7,3 +7,26 @@
 .navbar {
   border-radius: 0px;
 }
+
+.question-list {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.question {
+  border: 1px solid #bfbfbf;
+  padding: 15px;
+}
+
+.ember-view:first-child .question{
+  border-bottom: 0px;
+}
+
+.question-title {
+  font-size: 1.7em;
+}
+
+.answer-list {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
