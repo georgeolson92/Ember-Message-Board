@@ -1,0 +1,10 @@
+<h1>Ember Questions</h1>
+
+<ul>
+{{#each model as |question|}}
+  <li>"{{question.title}}" by {{question.author}}</li>
+{{/each}}
+</ul>
+
+{{#link-to 'about'}}About{{/link-to}}
+{{#link-to 'contact'}}Click here to contact us.{{/link-to}}
