@@ -1,5 +1,7 @@
 # Stack Emberflow
 
+#### By _**George Olson**_
+
 Stack Emberflow is a website where you can ask questions about code issues and receive answers from other people.
 
 ## Specifications
@@ -58,3 +60,9 @@ You will need the following things properly installed on your computer:
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+
+### License
+  *Open GPL*
+
+### Copyright
+  _2016. George Olson._
