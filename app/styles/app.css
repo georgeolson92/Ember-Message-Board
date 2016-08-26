@@ -14,8 +14,12 @@
   color: white;
 }
 
-.navbar-brand a{
+.navbar-inverse .navbar-brand{
   color: white;
+}
+
+.navbar-inverse .navbar-brand:hover {
+  text-decoration: underline;
 }
 
 .question-list {
