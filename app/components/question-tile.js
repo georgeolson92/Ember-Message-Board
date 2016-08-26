@@ -10,6 +10,16 @@ export default Ember.Component.extend({
   actions: {
     addToFavorites(item) {
       this.get('favoritesList').add(item);
+    },
+    upVote() {
+      var newRating = this.get('question.rating') + 1;
+      this.set('question.rating', newRating);
+      this.save();
+    },
+    downVote() {
+      var newRating = this.get('question.rating') - 1;
+      this.set('question.rating', newRating);
+      this.save();
     }
   }
 });
