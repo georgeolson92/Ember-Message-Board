@@ -25,8 +25,16 @@ Stack Emberflow is a website where you can ask questions about code issues and r
   * Example Input: in "Help!" question, user adds answer. User then deletes the entire question.
   * Example Output: Question & listed answers deleted.
 * __It can add questions to a 'favorites' list for future reference__
-  * Example Input: users adds "Help!" question to favorites list
+  * Example Input: user adds "Help!" question to favorites list
   * Example Output: Favorites List: "Help!" by "Sam"
+* __It can add change ratings of questions to be higher or lower__
+  * Example Input: "Help!" question is rated at 0 / user 'upvotes' "Help!" question
+  * Example Output: "Help!" question is rated at 1
+* __It can add "featured question" banner on questions with high rating__
+  * Example Input: "Help!" question is rated at 9 / "Help!" question rating increased to 11
+  * Example Output: "Help!" question contains "featured question" banner at top of listing
+
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer:

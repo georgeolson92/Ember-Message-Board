@@ -6,6 +6,16 @@
 
 .navbar {
   border-radius: 0px;
+  background-color: #004d99;
+  border: 0px;
+}
+
+.navbar a{
+  color: white;
+}
+
+.navbar-brand a{
+  color: white;
 }
 
 .question-list {
@@ -15,7 +25,7 @@
 
 .question {
   border: 1px solid #bfbfbf;
-  padding: 15px;
+
 }
 
 .ember-view:first-child .question{
@@ -24,6 +34,17 @@
 
 .question-title {
   font-size: 1.7em;
+}
+
+.question-title div{
+  float: left;
+}
+
+
+
+.question .rating {
+  padding-left: 10px;
+  padding-right: 5px;
 }
 
 .answer-list {
@@ -42,4 +63,20 @@
 
 .addbutton {
   color: pink;
+}
+
+.featured {
+  background-color: #0066cc;
+  color: white;
+  padding: 5px;
+}
+
+.question-content {
+  padding: 15px;
+}
+
+.buttonrate {
+  color: #3399ff;
+  background: none;
+  border: 0px;
 }
