@@ -1,0 +1,4 @@
+{{#each favoritesList.items as |item|}}
+  <li class="question">{{#link-to 'question' item.id}}<span class="item-title">{{item.title}}</span> {{/link-to}} by {{item.author}}
+  <button {{action 'removeFromFavorites' item}} class="favbutton removebutton"><strong class="fa fa-times"></strong></button></li>
+{{/each}}

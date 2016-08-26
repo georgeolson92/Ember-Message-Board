@@ -30,3 +30,16 @@
   margin-top: 30px;
   margin-bottom: 10px;
 }
+
+.favbutton {
+  background: none;
+  border:0px;
+}
+
+.removebutton {
+  color: red;
+}
+
+.addbutton {
+  color: pink;
+}

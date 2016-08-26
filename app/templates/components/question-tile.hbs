@@ -1,2 +1,3 @@
 
-<li class="question">{{#link-to 'question' question.id}}<span class="question-title">{{question.title}}</span> {{/link-to}} by {{question.author}} </li>
+<li class="question">{{#link-to 'question' question.id}}<span class="question-title">{{question.title}}</span> {{/link-to}} by {{question.author}}
+<button {{action 'addToFavorites' question}} class="favbutton addbutton"><strong class="fa fa-heart"></strong></button></li>

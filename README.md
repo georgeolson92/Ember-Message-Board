@@ -24,7 +24,9 @@ Stack Emberflow is a website where you can ask questions about code issues and r
 * __It can delete questions and linked answers__
   * Example Input: in "Help!" question, user adds answer. User then deletes the entire question.
   * Example Output: Question & listed answers deleted.
-
+* __It can add questions to a 'favorites' list for future reference__
+  * Example Input: users adds "Help!" question to favorites list
+  * Example Output: Favorites List: "Help!" by "Sam"
 ## Prerequisites
 
 You will need the following things properly installed on your computer:
