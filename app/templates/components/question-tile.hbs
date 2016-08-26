@@ -1,3 +1,8 @@
 
-<li class="question">{{#link-to 'question' question.id}}<span class="question-title">{{question.title}}</span> {{/link-to}} by {{question.author}}
-<button {{action 'addToFavorites' question}} class="favbutton addbutton"><strong class="fa fa-heart"></strong></button></li>
+<li class="question">
+  <span class="question-title">
+  {{question.rating}} |
+  {{#link-to 'question' question.id}}
+  {{question.title}} {{/link-to}}
+  </span> by {{question.author}}
+<button {{action 'addToFavorites' question}} class="favbutton addbutton"><strong class="fa fa-heart"></strong> Add to Favorites</button> | {{#link-to 'question' question.id}}{{questionAmount}} Answers {{/link-to}}</li>

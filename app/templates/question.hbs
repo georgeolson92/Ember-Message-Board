@@ -1,6 +1,8 @@
 <h1>{{model.title}}</h1>
 <h3>by {{model.author}}</h3>
 
+<button {{action 'addToFavorites' model}} class="favbutton addbutton">Add to favorites <strong class="fa fa-heart"></strong></button>
+
 {{question-detail question=model destroyQuestion="destroyQuestion"}}
 
 <div class="answer-list">

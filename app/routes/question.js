@@ -1,6 +1,8 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
+  favoritesList: Ember.inject.service(),
+
   model(params) {
     return this.store.findRecord('question', params.question_id);
   },
@@ -26,6 +28,9 @@ export default Ember.Route.extend({
     destroyAnswer(answer) {
       answer.destroyRecord();
       this.transitionTo('question');
+    },
+    addToFavorites(item) {
+      this.get('favoritesList').add(item);
     }
   }
 });
