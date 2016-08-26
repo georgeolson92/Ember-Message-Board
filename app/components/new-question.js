@@ -14,6 +14,9 @@ export default Ember.Component.extend({
         rating: 0,
       };
       this.set('addNewQuestion', false);
+      this.set('author', "");
+      this.set('title', "");
+      this.set('content', "");
       this.sendAction('save5', params);
     }
   }
